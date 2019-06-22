@@ -1,0 +1,80 @@
+.vert-line:before { 
+    content: " ";
+    background: #FF6109;
+    width: 1px;
+    height: 46px;
+    float: left;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: -2px;
+    }
+.vert-line::after { 
+    content: " ";
+    background: #FF6109;
+    width: 1px;
+    height: 46px;
+    float: left;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: -2px;
+    }
+.vert-line_nav:before { 
+    content: " ";
+    background: #FF6109;
+    width: 1px;
+    height: 13px;
+    float: left;
+    margin-left: 50%;
+    margin-right: 50%;
+    }
+.navbar {
+    position: relative;
+    padding-bottom: 0px;
+}
+.navbar-toggler{
+    padding-bottom: 0px;
+}
+.navbar-brand {
+    top: 16px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+.see_more {
+    color: #FF6109;
+}
+.hor_line:before,
+.hor_line:after {
+    content: "";
+    display: inline-block;
+    width: 50%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 1px solid;
+}
+.title {
+    display:table;
+    width:100%;
+    
+  }
+  .title-row {
+    display:table-row;
+  }
+  .bar-container {
+    position:relative;
+    display:table-cell;
+    width: 50%;
+  }
+  .bar {
+    position: absolute;
+    top: 55%;
+    width:100%;
+    border-bottom: 1px solid #FF6109;
+  }
+  .text {
+    display:table-cell;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: nowrap;
+  }

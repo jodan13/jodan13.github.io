@@ -1,0 +1,55 @@
+.skills {
+    min-height: 540px;
+    padding: 93px 0 145px 0;
+    background-color: $bg-color;
+
+    &__wrapper {
+        margin-top: 93px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    img {
+        height: 340px;
+    }
+
+    &__table {
+        width: 635px;
+    }
+
+    &__td-2 {
+        width: 445px;
+    }
+
+    tr {
+        height: 90px;
+        vertical-align: top;
+
+        &:last-child {
+            height: 70px;
+        }
+    }
+
+    &__level-bar {
+        height: 24px;
+        background: $main-color;
+    }
+
+    &__level-bar-inner {
+        height: 24px;
+        background: $three-colors;
+    }
+
+    .front-end-innet {
+        width: 64%;
+    }
+
+    .ui-dev-innet {
+        width: 51%;
+    }
+
+    .beck-end-innet {
+        width: 47%;
+    }
+}

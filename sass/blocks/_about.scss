@@ -1,0 +1,11 @@
+.about {
+    min-height: 540px;
+    padding: 93px 0 145px 0;
+
+    &__descr {
+        color: $text-color;
+        font-size: 18px;
+        font-weight: normal;
+        margin-top: 93px;
+    }
+}

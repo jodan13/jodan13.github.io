@@ -1,80 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>click-map</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <title>Jodan</title>
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-    
-    <section class="section_1 conainer_fluid p-0">
-        <div class="d-flex flex-column">
-            <div>
-                <header>
-                    <nav class="navbar navbar-dark bg-dark">
-                        <div class="vert-line_nav col-12"></div>
-                        <button class="navbar-toggler border-0" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="justify-content-center"><a class="navbar-brand text-light text-center ">Click-map</a></div>
-                        
 
-                        <div id="my-nav" class="collapse navbar-collapse">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Our projects <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Comments <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Our team <span class="sr-only">(current)</span></a>
-                                </li>
+    <section class="hero" id="hero">
+        <div class="container">
+            <header class="header">
 
-                            </ul>
-                        </div>
-                    </nav>
-                </header>
-            </div>
-            <div class="container-fluid text-center heading mb-2 p-0 bg-dark text-white vert-line">
-                <h4 class="p-1">Modern approach of mobile-first website design</h4>
-                <a href="#" class="see_more vert-line">see more</a>
-                <div class="title">
-                    <div class="title-row">
-                        <div class="bar-container">
-                            <div class="bar"></div>
-                        </div>
-                        <div class="text">
-                            <h5>Find out how not to lose <br> the positions in 2019</h5>
-                        </div>
-                        <div class="bar-container">
-                            <div class="bar"></div>
-                        </div>
+                <a href="#" class="header__logo">Jodan</a>
+                <nav>
+
+
+                    <ul class="menu">
+                        <li class="menu_item"><a href="#hero" class="menu_link">Home</a></li>
+                        <li class="menu_item"><a href="#about" class="menu_link">About</a></li>
+                        <li class="menu_item"><a href="#skills" class="menu_link">Skills</a></li>
+                        <li class="menu_item"><a href="#portfolio" class="menu_link">Portfolio</a></li>
+                        <li class="menu_item"><a href="#contact" class="menu_link">Contact</a></li>
+                    </ul>
+
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
+                </nav>
+
+
+            </header>
+            <div class="hero__wrapper">
+                <h1 class="hero__header">Hi, It’s Evgeny Danilchenko</h1>
+                <h2 class="hero__subheader">Web Developer from Rostov-on-Don, Russia</h2>
+
+                <div class="hero__link">
+                    <a href="#">Latest works</a>
                 </div>
             </div>
         </div>
     </section>
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="title">
+                About
+            </h2>
+            <div class="about__descr">
+                Hello. For 2 years now I have been doing web development. Most of my free time I actively study
+                WEB-technologies and put this knowledge into practice. I devote the rest of it to the family.
+                <br><br>
+                Now I’m looking for a job where I can do what I like and what causes great interest, where I will learn
+                something new, constantly develop, pumping all my “skills”, and conquer more and more new peaks of
+                amazing a diverse and very interesting area of WEB development.
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="title">Skills</h2>
+            <div class="skills__wrapper">
+                <img src="img/profile-picture.jpg" alt="profile-picture">
+                <div class="skills__profile">
+                    <table class="skills__table">
+                        <tr>
+                            <td>Profile</td>
+                            <td class='skills__td-2'>Front-end Developer, UI Engineer </td>
+                        </tr>
+                        <tr>
+                            <td>Front-end Dev <br><br>Tools</td>
+                            <td>
+                                <div class="skills__level-bar">
+                                    <div class="skills__level-bar-inner front-end-innet"></div>
+                                </div>
+                                <br>HTML5, CSS3, JS, Bootstrap, React
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>UI Development <br><br>Tools</td>
+                            <td>
+                                <div class="skills__level-bar">
+                                    <div class="skills__level-bar-inner ui-dev-innet"></div>
+                                </div>
+                                <br>Adobe PS, AI, XD, Figma, InVision
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Back-end Dev<br><br>Tools</td>
+                            <td>
+                                <div class="skills__level-bar">
+                                    <div class="skills__level-bar-inner beck-end-innet"></div>
+                                </div>
+                                <br>PHP, MySQL, Python
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
 
-<!--**************** section2 ***************** -->
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="title">
+                Portfolio
+            </h2>
+            <div class="portfolio__wrapper">
 
-<section>
+                <div class="portfolio__item">
+                    <div class="portfolio__slideText">
+                        <h3>UI Development 1</h3>
+                        <p>The interface will use a combination
+                            of technologies such as
+                            HTML, CSS, React, Javascript.</p>
+                    </div>
+                    <img src="img/slide1.jpg" alt="Первый слайд">
 
-</section>
-<!--**************** /section2 ***************** -->
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__slideText">
+                        <h3>UI Development 2</h3>
+                        <p>2 The interface will use a combination
+                            of technologies such as
+                            HTML, CSS, React, Javascript.</p>
+                    </div>
+                    <img src="img/slide2.jpg" alt="Второй слайд">
+
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__slideText">
+                        <h3>UI Development 3</h3>
+                        <p>3 The interface will use a combination
+                            of technologies such as
+                            HTML, CSS, React, Javascript.</p>
+                    </div>
+                    <img src="img/slide3.jpg" alt="Третий слайд">
+                </div>
 
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+                <a class="portfolio__prev" onclick="minusSlide()">
+                    <img src="icons/chevron-left-E76B.svg" alt="chevron-left">
+                </a>
+                <a class="portfolio__next" onclick="plusSlide()">
+                    <img src="icons/chevron-right-E76C.svg" alt="chevron-right">
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer class="contact" id="contact">
+        <div class="container">
+            <h2 class="title">
+                Get in Touch
+            </h2>
+            <div class="contact__wrapper">
+                <div class="portfolio-link">
+                    <a href="https://dribbble.com/jodan13">Dribbble</a>
+                    <a href="">Behance</a>
+                    <a href="">CodePen</a>
+                    <a href="">GitHub</a>
+                    <a href="">Medium</a>
+                </div>
+                <div class="social-network">
+                    <a href="">LinkedIn</a>
+                    <a href="">Facebook</a>
+                    <a href="">Instagram</a>
+                    <a href="">vk</a>
+                </div>
+                <div class="email-phone">
+                    <a href="mailto:daniljchenko@gmail.com">daniljchenko@gmail.com</a>
+                    <a href="tel:+79885888928">+ 7 988 5888 928</a> </div>
+            </div>
+            <a href="#hero" class="pageup">
+                <img src="icons/chevron-up-E70E.svg" alt="up">
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
+
 </html>

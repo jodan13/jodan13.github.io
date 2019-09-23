@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Libre Franklin';
+    font-display: swap;
+    src: local('Libre Franklin SemiBold'), local('LibreFranklin-SemiBold'),
+        url('../fonts/LibreFranklin-SemiBold.woff2') format('woff2'),
+        url('../fonts/LibreFranklin-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    font-display: swap;
+    src: local('Libre Franklin Regular'), local('LibreFranklin-Regular'),
+        url('../fonts/LibreFranklin-Regular.woff2') format('woff2'),
+        url('../fonts/LibreFranklin-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    font-display: swap;
+    src: local('Libre Franklin Bold'), local('LibreFranklin-Bold'),
+        url('../fonts/LibreFranklin-Bold.woff2') format('woff2'),
+        url('../fonts/LibreFranklin-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

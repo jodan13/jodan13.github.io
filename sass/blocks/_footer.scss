@@ -1,0 +1,28 @@
+.contact {
+    min-height: 528x;
+    padding: 93px 0 188px 0;
+    background-color: $bg-color;
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+
+        .portfolio-link,
+        .social-network {
+            width: 380px;
+        }
+
+        .email-phone {
+            width: 350px;
+        }
+
+        div {
+            a {
+                display: block;
+                color: $text-color;
+            }
+        }
+    }
+
+}

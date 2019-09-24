@@ -1,0 +1,65 @@
+@media (max-width:1051.98px) {
+
+    .skills {
+        &__wrapper {
+            justify-content: center;
+        }
+
+        &__profile {
+            margin-top: 26px;
+        }
+    }
+
+    .hero {
+        &__wrapper {
+            align-items: center;
+        }
+
+        &__header {
+            text-align: center;
+        }
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .portfolio {
+
+        &__item {
+            justify-content: center;
+
+            img {
+                margin: 0 auto;
+            }
+
+        }
+
+        &__slideText {
+            text-align: center;
+
+        }
+    }
+}
+
+@media (max-width:859.98px) {
+    .portfolio {
+        &__wrapper {
+            a {
+                display: none;
+            }
+        }
+    }
+
+    .contact__wrapper {
+
+        .portfolio-link,
+        .social-network {
+            width: 50%;
+        }
+
+        .email-phone {
+            margin-top: 29px;
+        }
+    }
+}

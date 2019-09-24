@@ -3,6 +3,7 @@
 
 @import 'base/variables';
 
+
 * {
     font-family: 'Libre Franklin', sans-serif;
 }
@@ -20,4 +21,5 @@
 @import 'blocks/portfolio';
 @import 'blocks/skills';
 @import 'blocks/footer';
-@import 'blocks/pageup'
+@import 'blocks/pageup';
+@import 'base/media'

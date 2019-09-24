@@ -22,6 +22,10 @@
         width: 445px;
     }
 
+    td:nth-child(odd) {
+        font-weight: 600;
+    }
+
     tr {
         height: 90px;
         vertical-align: top;

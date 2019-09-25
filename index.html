@@ -19,7 +19,7 @@
                 <nav>
 
 
-                    <ul class="menu">
+                    <ul class="menu" id="menu">
                         <li class="menu_item"><a href="#hero" class="menu_link">Home</a></li>
                         <li class="menu_item"><a href="#about" class="menu_link">About</a></li>
                         <li class="menu_item"><a href="#skills" class="menu_link">Skills</a></li>
@@ -110,56 +110,52 @@
             <h2 class="title">
                 Portfolio
             </h2>
-            <div class="portfolio__wrapper">
+            <div class="portfolio__wrapper simple-slider simple-slider-first">
 
-                <div class="portfolio__item">
-                    <div class="portfolio__slideText">
-                        <h3>UI Development</h3>
-                        <p>The interface will use a combination
-                            of technologies such as
-                            HTML, CSS, php, Javascript.
-                            <br>
-                            <a href="https://hoegermailbox.com/">https://hoegermailbox.com/ </a> </p>
+                <div class="slider-wrapper">
+                    <div class="portfolio__item slider-slide">
+                        <div class="portfolio__slideText">
+                            <h3>UI Development</h3>
+                            <p>The interface will use a combination
+                                of technologies such as
+                                HTML, CSS, php, Javascript.
+                                <br>
+                                <a href="https://hoegermailbox.com/">https://hoegermailbox.com/ </a> </p>
+                        </div>
+                        <img src="img/slide1.jpg" alt="Первый слайд">
+
                     </div>
-                    <img src="img/slide1.jpg" alt="Первый слайд">
 
+                    <div class="portfolio__item slider-slide">
+                        <div class="portfolio__slideText">
+                            <h3>UI Development</h3>
+                            <p>2 The interface will use a combination
+                                of technologies such as
+                                HTML, CSS, php, Javascript. br
+                                <br>
+                                <a href="http://quiz.millenium-design.ru/">http://quiz.millenium-design.ru/</a>
+                            </p>
+                        </div>
+                        <img src="img/slide2.jpg" alt="Второй слайд">
+
+                    </div>
+
+                    <div class="portfolio__item slider-slide">
+                        <div class="portfolio__slideText">
+                            <h3>UI Development</h3>
+                            <p>3 The interface will use a combination
+                                of technologies such as
+                                HTML, CSS, php, Javascript.
+                                <br>
+                                <a href="http://balance.skersto.ru/">http://balance.skersto.ru/</a></p>
+                        </div>
+                        <img src="img/slide3.jpg" alt="Третий слайд">
+                    </div>
                 </div>
 
-                <div class="portfolio__item">
-                    <div class="portfolio__slideText">
-                        <h3>UI Development</h3>
-                        <p>2 The interface will use a combination
-                            of technologies such as
-                            HTML, CSS, php, Javascript. br
-                            <br>
-                            <a href="http://quiz.millenium-design.ru/">http://quiz.millenium-design.ru/</a>
-                        </p>
-                    </div>
-                    <img src="img/slide2.jpg" alt="Второй слайд">
-
-                </div>
-
-                <div class="portfolio__item">
-                    <div class="portfolio__slideText">
-                        <h3>UI Development</h3>
-                        <p>3 The interface will use a combination
-                            of technologies such as
-                            HTML, CSS, php, Javascript.
-                            <br>
-                            <a href="http://balance.skersto.ru/">http://balance.skersto.ru/</a></p>
-                    </div>
-                    <img src="img/slide3.jpg" alt="Третий слайд">
-                </div>
-
-
-
-
-                <a class="portfolio__prev" onclick="minusSlide()">
-                    <img src="icons/chevron-left-E76B.svg" alt="chevron-left">
-                </a>
-                <a class="portfolio__next" onclick="plusSlide()">
-                    <img src="icons/chevron-right-E76C.svg" alt="chevron-right">
-                </a>
+                <!-- Buttons (Not required) -->
+                <div class="slider-btn slider-btn-prev"></div>
+                <div class="slider-btn slider-btn-next"></div>
             </div>
         </div>
         </div>
@@ -188,12 +184,16 @@
                     <a href="tel:+79885888928">+ 7 988 5888 928</a> </div>
             </div>
             <a href="#hero" class="pageup">
-                <img src="icons/chevron-up-E70E.svg" alt="up">
+                <img src="icons/up.svg" alt="up">
             </a>
         </div>
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/slider.min.js"></script>
+    <script>
+        new simpleSlider('.simple-slider-first');
+    </script>
 </body>
 
 </html>

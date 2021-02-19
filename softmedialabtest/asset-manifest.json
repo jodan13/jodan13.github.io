@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.95ad1750.chunk.css",
-    "main.js": "/static/js/main.26a7c437.chunk.js",
-    "main.js.map": "/static/js/main.26a7c437.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.21037d7b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.21037d7b.js.map",
-    "static/js/2.5ee89a28.chunk.js": "/static/js/2.5ee89a28.chunk.js",
-    "static/js/2.5ee89a28.chunk.js.map": "/static/js/2.5ee89a28.chunk.js.map",
-    "static/js/3.a1211dc6.chunk.js": "/static/js/3.a1211dc6.chunk.js",
-    "static/js/3.a1211dc6.chunk.js.map": "/static/js/3.a1211dc6.chunk.js.map",
+    "main.css": "/softmedialabtest/static/css/main.95ad1750.chunk.css",
+    "main.js": "/softmedialabtest/static/js/main.26a7c437.chunk.js",
+    "main.js.map": "/softmedialabtest/static/js/main.26a7c437.chunk.js.map",
+    "runtime-main.js": "/softmedialabtest/static/js/runtime-main.21037d7b.js",
+    "runtime-main.js.map": "/softmedialabtest/static/js/runtime-main.21037d7b.js.map",
+    "softmedialabtest/static/js/2.5ee89a28.chunk.js": "/softmedialabtest/static/js/2.5ee89a28.chunk.js",
+    "softmedialabtest/static/js/2.5ee89a28.chunk.js.map": "/softmedialabtest/static/js/2.5ee89a28.chunk.js.map",
+    "softmedialabtest/static/js/3.a1211dc6.chunk.js": "/softmedialabtest/static/js/3.a1211dc6.chunk.js",
+    "softmedialabtest/static/js/3.a1211dc6.chunk.js.map": "/softmedialabtest/static/js/3.a1211dc6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.95ad1750.chunk.css.map": "/static/css/main.95ad1750.chunk.css.map",
-    "static/js/2.5ee89a28.chunk.js.LICENSE.txt": "/static/js/2.5ee89a28.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/static/media/bootstrap-icons.7d38a258.woff"
+    "softmedialabtest/static/css/main.95ad1750.chunk.css.map": "/softmedialabtest/static/css/main.95ad1750.chunk.css.map",
+    "softmedialabtest/static/js/2.5ee89a28.chunk.js.LICENSE.txt": "/softmedialabtest/static/js/2.5ee89a28.chunk.js.LICENSE.txt",
+    "softmedialabtest/static/media/index.scss": "/softmedialabtest/static/media/bootstrap-icons.7d38a258.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.21037d7b.js",
-    "static/js/2.5ee89a28.chunk.js",
-    "static/css/main.95ad1750.chunk.css",
-    "static/js/main.26a7c437.chunk.js"
+    "softmedialabtest/static/js/runtime-main.21037d7b.js",
+    "softmedialabtest/static/js/2.5ee89a28.chunk.js",
+    "softmedialabtest/static/css/main.95ad1750.chunk.css",
+    "softmedialabtest/static/js/main.26a7c437.chunk.js"
   ]
 }

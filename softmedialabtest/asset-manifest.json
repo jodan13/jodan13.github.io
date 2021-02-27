@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/softmedialabtest/static/css/main.95ad1750.chunk.css",
-    "main.js": "/softmedialabtest/static/js/main.26a7c437.chunk.js",
-    "main.js.map": "/softmedialabtest/static/js/main.26a7c437.chunk.js.map",
-    "runtime-main.js": "/softmedialabtest/static/js/runtime-main.21037d7b.js",
-    "runtime-main.js.map": "/softmedialabtest/static/js/runtime-main.21037d7b.js.map",
-    "softmedialabtest/static/js/2.5ee89a28.chunk.js": "/softmedialabtest/static/js/2.5ee89a28.chunk.js",
-    "softmedialabtest/static/js/2.5ee89a28.chunk.js.map": "/softmedialabtest/static/js/2.5ee89a28.chunk.js.map",
-    "softmedialabtest/static/js/3.a1211dc6.chunk.js": "/softmedialabtest/static/js/3.a1211dc6.chunk.js",
-    "softmedialabtest/static/js/3.a1211dc6.chunk.js.map": "/softmedialabtest/static/js/3.a1211dc6.chunk.js.map",
-    "index.html": "/index.html",
-    "softmedialabtest/static/css/main.95ad1750.chunk.css.map": "/softmedialabtest/static/css/main.95ad1750.chunk.css.map",
-    "softmedialabtest/static/js/2.5ee89a28.chunk.js.LICENSE.txt": "/softmedialabtest/static/js/2.5ee89a28.chunk.js.LICENSE.txt",
-    "softmedialabtest/static/media/index.scss": "/softmedialabtest/static/media/bootstrap-icons.7d38a258.woff"
+    "main.css": "/softmedialabtest/static/css/main.5a4dee53.chunk.css",
+    "main.js": "/softmedialabtest/static/js/main.cb73f3dc.chunk.js",
+    "main.js.map": "/softmedialabtest/static/js/main.cb73f3dc.chunk.js.map",
+    "runtime-main.js": "/softmedialabtest/static/js/runtime-main.982ccc77.js",
+    "runtime-main.js.map": "/softmedialabtest/static/js/runtime-main.982ccc77.js.map",
+    "static/js/2.1e86c934.chunk.js": "/softmedialabtest/static/js/2.1e86c934.chunk.js",
+    "static/js/2.1e86c934.chunk.js.map": "/softmedialabtest/static/js/2.1e86c934.chunk.js.map",
+    "static/js/3.a1211dc6.chunk.js": "/softmedialabtest/static/js/3.a1211dc6.chunk.js",
+    "static/js/3.a1211dc6.chunk.js.map": "/softmedialabtest/static/js/3.a1211dc6.chunk.js.map",
+    "index.html": "/softmedialabtest/index.html",
+    "static/css/main.5a4dee53.chunk.css.map": "/softmedialabtest/static/css/main.5a4dee53.chunk.css.map",
+    "static/js/2.1e86c934.chunk.js.LICENSE.txt": "/softmedialabtest/static/js/2.1e86c934.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/softmedialabtest/static/media/bootstrap-icons.7d38a258.woff"
   },
   "entrypoints": [
-    "softmedialabtest/static/js/runtime-main.21037d7b.js",
-    "softmedialabtest/static/js/2.5ee89a28.chunk.js",
-    "softmedialabtest/static/css/main.95ad1750.chunk.css",
-    "softmedialabtest/static/js/main.26a7c437.chunk.js"
+    "static/js/runtime-main.982ccc77.js",
+    "static/js/2.1e86c934.chunk.js",
+    "static/css/main.5a4dee53.chunk.css",
+    "static/js/main.cb73f3dc.chunk.js"
   ]
 }
